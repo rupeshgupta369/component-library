@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+font-family: sans-serif;
+}
+
+body {
+  background-color: #dddddd;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2E2C34;
+  color: #EBEBED;
+  flex-wrap: wrap;
+  padding: 0 10px 0 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+    display: flex;
+  text-align: center;
+  align-items: center;
+}
+.nav-links {
+  padding: 0;
+
+}
+.nav-link {
+  font-weight: 300;
+}
+
+.left-nav{
+
+}
+
+#docsearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#docsearch-input {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  padding-left: 0.8rem;
+  padding-right: 2rem;
+  background-color: #f1f2f6;
+}
