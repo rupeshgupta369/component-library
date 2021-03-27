@@ -17,7 +17,7 @@ body {
                          "components page-content"
                          "components page-content";
     grid-template-columns: 300px 1fr;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 header {
@@ -408,11 +408,6 @@ button {
     width: 200px;
     margin: 10px;
 }
-
-#card-overlay-container {
-    
-}
-
 #card-image-overlay {
     position: absolute;
     top: 10px;
