@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+/* *{
+box-sizing: border-box;
+}
+ */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+
+}
+:root{
+--color-primary-lighter: #F5F3FF;
+    --color-primary-light : #C4B5FD;
+    --color-primary-dark : #8B5CF6;
+    --color-primary-darker:#4C1D95;
+}
+
+.homepage-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+.homepage-into{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.homepage-intro p {
+    margin: 5px ;
+}
+
+.homepage-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homepage-img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+#homepage-name {
+    font-family: 'Chango', cursive;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: var(--color-primary-darker);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#homepage-summary {
+    width: auto;
+    font-size: 2rem;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+}
+#homepage-buttons{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+
+#homepage-buttons button {
+    font-size: 1.8em; 
+    height: 80px; 
+    width: 290px; 
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#button-getstarted {
+    margin-right: 30px;
+    background-color: var(--color-primary-dark);
+}
+
+#button-getstarted a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+
+#button-getstarted:hover {
+    background-color: var(--color-primary-darker);
+}
+
+#homepage-github-button {
+    color: var(--color-primary-dark);
+}
+
+#homepage-github-button a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: var(--color-primary-dark);
+}
+
+#homepage-github-button:hover {
+    border: 3px solid var(--color-primary-darker);
+    color: var(--color-primary-darker);
+}
+
+#homepage-github-button:visited {
+    text-decoration: none;
+    color: inherit;
+}

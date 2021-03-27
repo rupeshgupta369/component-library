@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles.css">
+    <title>Modal | Donut CSS</title>
+</head>
+<body>
+    <header>
+        <div id="header-brand">
+            <img id="header-img" src="/images/homepage-donut.svg" />
+            <h1 id="header-name">Donut CSS</h1>
+        </div>
+        <div class="header-links">
+            <a href="../../index.html">Home</a>
+            <a href="../../documentation.html">Docs</a>
+            <a href="../../about.html">About</a>
+        </div>
+    </header>
+    
+    <div class="container-component-list">
+        <ul class="component-list">
+            <li class="component-list-item">
+                <a class="component-link" href="../../index.html">Home</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../button/button.html">Button</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../card/card.html">Card</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../image/image.html">Image</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../input/input.html">Input</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../lists/lists.html">Lists</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link link-active" href="modal.html">Modal</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../simplegrid/simplegrid.html">Simple Grids</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../slider/slider.html">Slider</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../textutilities/textutilities.html">Text Utilities</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h1 class="div-heading">Modal</h1>
+            <p>A modal is a dialog box/popup window that is displayed on top of the current page</p>
+
+            <button class="button-primary" id="modal-button" onClick="openDarkModal()"> Open Dark Modal </button>
+            <button class="button-primary" id="modal-button" onClick="openLightModal()"> Open Light Modal </button>
+
+            <div class="modal" id="modal-dark">
+                <span id="modal-dismiss-button" onClick="closeDarkModalOnClick()">&times;</span>
+                <div class="modal-content">
+                    <h3>Modal Header</h3>
+                    <p>This is text inside the modal</p>
+                </div>
+            </div>   
+            <div class="modal" id="modal-light">
+                <span id="modal-dismiss-button" onClick="closeLightModalOnClick()">&times;</span>
+                <div class="modal-content">
+                    <h3>Modal Header</h3>
+                    <p>This is text inside the modal</p>
+                </div>
+            </div> 
+            
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=17px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%2520id%253D%2522modal-dark%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520id%253D%2522modal-dismiss-button%2522%2520onClick%253D%2522closeDarkModalOnClick%28%29%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%2520Modal%2520Content%2520Here%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520"
+            style="width: 904px; height: 250px; border:0; transform: scale(1); overflow:hidden; margin-top: 100px;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        
+        
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=17px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%2520id%253D%2522modal-dark%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520id%253D%2522modal-dismiss-button%2522%2520onClick%253D%2522closeDarkModalOnClick%28%29%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%2520Modal%2520Content%2520Here%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520"
+            style="width: 904px; height: 250px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </div>
+    </div>
+
+   
+
+
+    <script>
+        const openDarkModal = () => {
+            document.getElementById("modal-dark").style.display = "block";
+        }
+
+        const closeDarkModalOnClick = () => {
+            document.getElementById("modal-dark").style.display = "none";
+        }
+        const openLightModal = () => {
+            document.getElementById("modal-light").style.display = "block";
+        }
+
+        const closeLightModalOnClick = () => {
+            document.getElementById("modal-light").style.display = "none";
+        }
+    </script>
+
+
+</body>
+</html>

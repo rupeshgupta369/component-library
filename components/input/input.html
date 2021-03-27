@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles.css">
+    <title>Input | Donut CSS</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-brand">
+            <img id="header-img" src="/images/homepage-donut.svg" />
+            <h1 id="header-name">Donut CSS</h1>
+        </div>
+        <div class="header-links">
+            <a href="../../index.html">Home</a>
+            <a href="../../documentation.html">Docs</a>
+            <a href="../../about.html">About</a>
+        </div>
+    </header>
+
+    <div class="container-component-list">
+        <ul class="component-list">
+            <li class="component-list-item">
+                <a class="component-link" href="../../index.html">Home</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../button/button.html">Button</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../card/card.html">Card</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../image/image.html">Image</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link link-active" href="input.html">Input</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../lists/lists.html">Lists</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../modal/modal.html">Modal</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../simplegrid/simplegrid.html">Simple Grids</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../slider/slider.html">Slider</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../textutilities/textutilities.html">Text Utilities</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h1 class="div-heading">Simple Textfields</h1>
+            <p>Basic textfield with a bottom border. Background changes on focus.</p>
+            <p>Textfields with background. Border appears on focus.</p>
+            <p>Outlined textfields where border appears on focus.</p>
+            <input placeholder="Basic" type="text" class="textfield textfield-basic">
+            <input placeholder="Background" type="text" class="textfield textfield-bg">
+            <input placeholder="Outline" type="text" class="textfield textfield-outline">
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=17px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=1x&wm=false&code=%253Cinput%2520placeholder%253D%2522Basic%2522%2520type%253D%2522text%2522%2520class%253D%2522textfield%2520textfield-basic%2522%253E%250A%253Cinput%2520placeholder%253D%2522Background%2522%2520type%253D%2522text%2522%2520class%253D%2522textfield%2520textfield-bg%2522%253E%250A%253Cinput%2520placeholder%253D%2522Outline%2522%2520type%253D%2522text%2522%2520class%253D%2522textfield%2520textfield-outline%2522%253E"
+                style="width: 904px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <hr>
+
+            <h1 class="div-heading">Simple Textfields with Labels</h1>
+            <p>Textfield with Label on top.</p>
+            <div class="textfield-container">
+                <label class="textfield-label label-top" for="name">Name</label>
+                <input type="text" class="textfield textfield-basic" id="name">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=17px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=1x&wm=false&code=%253Clabel%2520class%253D%2522textfield-label%2520label-top%2522%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522textfield%2520textfield-basic%2522%2520id%253D%2522name%2522%253E"
+                style="width: 904px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <br>
+            <p>Textfield with Label on the left.</p>
+            <div class="textfield-container">
+                <label class="textfield-label label-left" for="age">Number</label>
+                <input type="number" class="textfield textfield-bg" id="age" style="margin-top: 15px;">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=shades-of-purple&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=17px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=1x&wm=false&code=%253Clabel%2520class%253D%2522textfield-label%2520label-left%2522%2520for%253D%2522age%2522%253ENumber%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522textfield%2520textfield-bg%2522%2520id%253D%2522age%2522%253E"
+                style="width: 904px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>
