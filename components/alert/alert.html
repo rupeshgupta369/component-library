@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles.css">
+    <title>Alert | Purple CSS</title>
+</head>
+<body>
+    <header>
+        <div id="header-brand">
+            <img id="header-img" src="../../jelly.svg" />
+            <h1 id="header-name">purplecss</h1>
+        </div>
+        <div class="header-links">
+            <a href="../../index.html">Home</a>
+            <a href="../../documentation.html">Docs</a>
+            <a href="../../about.html">About</a>
+        </div>
+    </header>
+    
+    <div class="container-component-list">
+        <ul class="component-list">
+            <li class="component-list-item">
+                <a class="component-link" href="../../index.html">Home</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link link-active" href="alert.html">Alert</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../button/button.html">Button</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../card/card.html">Card</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../image/image.html">Image</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../input/input.html">Input</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../lists/lists.html">Lists</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../modal/modal.html">Modal</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../simplegrid/simplegrid.html">Simple Grids</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../slider/slider.html">Slider</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../textutilities/textutilities.html">Text Utilities</a>
+            </li>
+            <li class="component-list-item">
+                <a class="component-link" href="../toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h1 class="div-heading">Basic Alerts</h1>
+            <p>Alerts provide feedback based on user actions.</p>
+            <div class="alert alert-primary">
+                This is a primary alert
+            </div>
+            <div class="alert alert-secondary">
+                This is a secondary alert
+            </div>
+            <div class="alert alert-error">
+                This is an error alert
+            </div>
+            <div class="alert alert-warning">
+                This is a warning alert
+            </div>
+            <div class="alert alert-success">
+                This is a success alert
+            </div>
+            <div class="alert alert-info">
+                This is an info alert
+            </div>
+            <div class="alert alert-dark">
+                This is a dark alert
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=24px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520primary%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520secondary%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520error%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520warning%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520info%2520alert%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-dark%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520dark%2520alert%250A%253C%252Fdiv%253E"
+            style="width: 904px; height: 513px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h1 class="div-heading">Alerts with Links</h1>
+            <p>Just add an a tag and you're good!</p>
+            <div class="alert alert-primary">
+                This is a primary alert. For more info, visit <a href="#">here.</a>
+            </div>
+            <div class="alert alert-secondary">
+                This is a secondary alert. For more info, visit <a href="#">here.</a>
+            </div>
+            <div class="alert alert-error">
+                This is an error alert caused due to <a href="#">this.</a>
+            </div>
+            <div class="alert alert-warning">
+                This is a warning alert caused due to <a href="#">this.</a>
+            </div>
+            <div class="alert alert-success">
+                This is a success alert. For more info, visit <a href="#">here.</a>
+            </div>
+            <div class="alert alert-info">
+                This is an info alert. For more, visit <a href="#">here.</a>
+            </div>
+            <div class="alert alert-dark">
+                This is a dark alert. For more, visit <a href="#">here.</a>
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=24px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520primary%2520alert.%2520For%2520more%2520info%252C%2520visit%2520%253Ca%2520href%253D%2522%2523%2522%253Ehere.%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520secondary%2520alert.%2520For%2520more%2520info%252C%2520visit%2520%253Ca%2520href%253D%2522%2523%2522%253Ehere.%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520error%2520alert%2520caused%2520due%2520to%2520%253Ca%2520href%253D%2522%2523%2522%253Ethis.%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520warning%2520alert%2520caused%2520due%2520to%2520%253Ca%2520href%253D%2522%2523%2522%253Ethis.%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert.%2520For%2520more%2520info%252C%2520visit%2520%253Ca%2520href%253D%2522%2523%2522%253Ehere.%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520info%2520alert.%2520For%2520more%252C%2520visit%2520%253Ca%2520href%253D%2522%2523%2522%253Ehere.%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-dark%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520dark%2520alert.%2520For%2520more%252C%2520visit%2520%253Ca%2520href%253D%2522%2523%2522%253Ehere.%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+            style="width: 904px; height: 513px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h1 class="div-heading">Dismissable Alerts</h1>
+            <p>These alerts can be hidden or removed by clicking the close button.</p>
+            <div class="alert alert-warning" id="alert-dismissable">
+                <button id="alert-close-button" onclick="hideDiv()">&times;</button>
+                This is a warning alert that can be dismissed.
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=cobalt&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=24px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%2520id%253D%2522alert-dismissable%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522alert-close-button%2522%2520onclick%253D%2522hideDiv%28%29%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520warning%2520alert%2520that%2520can%2520be%2520dismissed.%250A%253C%252Fdiv%253E"
+            style="width: 904px; height: 196px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+    <script>
+        function hideDiv() {
+          var x = document.getElementById("alert-dismissable");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script>
+</body>
+</html>
