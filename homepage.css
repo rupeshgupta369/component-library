@@ -10,12 +10,7 @@ body{
     background-color: antiquewhite;
 
 }
-/* :root{
---color-primary-lighter: #F5F3FF;
-    --color-primary-light : #C4B5FD;
-    --color-primary-dark : #8B5CF6;
-    --color-primary-darker:#4C1D95;
-} */
+
 
 :root{
 --color-primary-lighter: #F3EFDC; /* done */
@@ -23,6 +18,7 @@ body{
     --color-primary-dark : #898486;/* done */
     --color-primary-darker:#834729;/* done */
 }
+
 .homepage-container{
     width: 100vw;
     height: 100vh;
