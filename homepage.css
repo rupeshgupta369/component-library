@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
-
+@import url('docstyles.css');
 /* *{
 box-sizing: border-box;
 }
@@ -10,13 +10,19 @@ body{
     background-color: antiquewhite;
 
 }
-:root{
+/* :root{
 --color-primary-lighter: #F5F3FF;
     --color-primary-light : #C4B5FD;
     --color-primary-dark : #8B5CF6;
     --color-primary-darker:#4C1D95;
-}
+} */
 
+:root{
+--color-primary-lighter: #F3EFDC; /* done */
+    --color-primary-light : #E4CB93; /* done */
+    --color-primary-dark : #898486;/* done */
+    --color-primary-darker:#834729;/* done */
+}
 .homepage-container{
     width: 100vw;
     height: 100vh;
