@@ -1,13 +1,18 @@
-@import url("styles.css");
+@import url("docstyles.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
-    --color-primary-darker:#4C1D95;
-    --color-primary-light : #F5F3FF;
+   /*  --color-primary-darker:#4C1D95;
+    --color-primary-light : #F5F3FF; */
+    --color-primary-darker:#834729;/* done */
+    --color-primary-light : #E4CB93; /* done */
+
+
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
 }
 
 .about-container {

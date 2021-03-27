@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 
 :root {
-    --color-primary-lighter: #F5F3FF;
     --color-primary-light-200: #DDD6FE;
-    --color-primary-light : #C4B5FD;
-    --color-primary-dark : #8B5CF6;
-    --color-primary-darker:#4C1D95;
+    --color-primary-lighter: #F3EFDC; 
+    --color-primary-light : #E4CB93; 
+    --color-primary-dark : #898486;
+    --color-primary-darker:#834729;
 }
 
 body {
