@@ -75,10 +75,10 @@ body{
 }
 
 #homepage-buttons button {
-    font-size: 1.8em; 
-    height: 80px; 
-    width: 290px; 
-    padding: 20px;
+    font-size: 1rem; 
+    height: 55px; 
+    width: 250px; 
+    padding: 20px;  
     margin-top: 50px;
 }
 
@@ -101,18 +101,23 @@ body{
 
 #homepage-github-button {
     color: var(--color-primary-dark);
+    background-color: var(--color-primary-dark);
+
 }
 
 #homepage-github-button a {
     height: 100%;
     width: 100%;
     text-decoration: none;
-    color: var(--color-primary-dark);
+    /* color: var(--color-primary-darker); */
+    color: white;
 }
 
 #homepage-github-button:hover {
     border: 3px solid var(--color-primary-darker);
-    color: var(--color-primary-darker);
+    color: var(--color-primary-lighter);
+    background-color: var(--color-primary-darker);
+    
 }
 
 #homepage-github-button:visited {
